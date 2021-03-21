@@ -38,5 +38,5 @@ class GameRoom(WebsocketConsumer):
         data = json.loads(data)
 
         self.send(text_data=json.dumps({
-            'payload': ['data']
+            'payload': data['data']
         }))
