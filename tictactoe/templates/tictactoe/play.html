@@ -268,6 +268,15 @@
         background-color: #388;
     }
 
+    .reset{
+        color: #fff;
+        font-size: 25px;
+    }
+
+    .reset:hover{
+        background-color: #c4a639;
+    }
+
     .tieboard {
         background-color: #665;
     }
@@ -282,18 +291,18 @@
             </div>
             <div class="boardcontainer">
                 <div class="board">
-                    <div data-cell-index="0" class="space"></div>
-                    <div data-cell-index="1" class="space"></div>
-                    <div data-cell-index="2" class="space"></div>
-                    <div data-cell-index="3" class="space"></div>
-                    <div data-cell-index="4" class="space"></div>
-                    <div data-cell-index="5" class="space"></div>
-                    <div data-cell-index="6" class="space"></div>
-                    <div data-cell-index="7" class="space"></div>
-                    <div data-cell-index="8" class="space"></div>
+                    <div data-cell-index="0" class="space top-left" ></div>
+                    <div data-cell-index="1" class="space top-middle"></div>
+                    <div data-cell-index="2" class="space top-right"></div>
+                    <div data-cell-index="3" class="space middle-left"></div>
+                    <div data-cell-index="4" class="space middle-middle"></div>
+                    <div data-cell-index="5" class="space middle-right"></div>
+                    <div data-cell-index="6" class="space bottom-left"></div>
+                    <div data-cell-index="7" class="space bottom-middle "></div>
+                    <div data-cell-index="8" class="space bottom-right"></div>
                 </div>
             </div>
-            <button>Play Again</button>
+            <div class="reset">Reset</div>
         </div>
     </div>
 
@@ -424,8 +433,33 @@
         socket.onclose = function (e){
             console.log('Socket closed')
         }
-
     </script>
+
+    <script>
+<!--        html elements-->
+            const resetDiv = document.querySelector('.reset');
+            const spaceDivs = document.querySelectorAll('.space');
+
+
+<!--        event handler-->
+            const handleReset = (e) => {
+            console.log(e);
+            };
+
+
+<!--beginner-friendly tutorial that will guide you through building a complete tic tac toe game, with no shortcuts.-->
+            const handleSpaceClick = (e) => {
+                console.log(e);
+            };
+
+
+<!--        event Listeners-->
+            resetDiv.addEventListener('click', handleReset);
+
+            for (const spaceDiv of spaceDivs) {
+                spaceDiv.addEventListener('click', handleSpaceClick)
+            }
+</script>
 </body>
 
 </html>

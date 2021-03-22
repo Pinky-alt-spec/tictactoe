@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c760313-e7d2-45c3-be33-3cac3c565609" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tictactoe/migrations/0002_auto_20210322_0045.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tictactoe/migrations/0003_remove_game_player.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tictactoe/migrations/0004_game_board.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tictactoe/migrations/0005_auto_20210322_0341.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/Portfolio.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
@@ -11,10 +15,12 @@
       <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../db.sqlite3" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tictactoe/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/tictactoe/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/game/asgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/game/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tictactoe/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/tictactoe/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tictactoe/templates/tictactoe/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/tictactoe/templates/tictactoe/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tictactoe/templates/tictactoe/play.html" beforeDir="false" afterPath="$PROJECT_DIR$/tictactoe/templates/tictactoe/play.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tictactoe/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/tictactoe/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../manage.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../requirements.txt" beforeDir="false" />
     </list>
