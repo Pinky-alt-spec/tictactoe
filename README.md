@@ -6,7 +6,7 @@
    #### - The user has to create the room code, select option 1
    #### - The Room code of Player1 should be the same as that of the opponent (string, numbers or characters)
   
-  ![intro3](https://user-images.githubusercontent.com/64901994/112340145-8845ab80-8c7d-11eb-9543-6191d9503690.PNG)
+   ![Intro](https://user-images.githubusercontent.com/64901994/112348548-2b4df380-8c85-11eb-9065-4c14e9fead5f.PNG)
   
   ## Languages Used in this Section
     
