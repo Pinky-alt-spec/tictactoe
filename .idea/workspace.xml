@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c760313-e7d2-45c3-be33-3cac3c565609" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tictactoe/static/img/intro.PNG" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../tictac/db.sqlite3" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../tictac/main.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../tictac/manage.py" afterDir="false" />
@@ -30,8 +31,6 @@
       <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../db.sqlite3" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tictactoe/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/tictactoe/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tictactoe/templates/tictactoe/play.html" beforeDir="false" afterPath="$PROJECT_DIR$/tictactoe/templates/tictactoe/play.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../manage.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../requirements.txt" beforeDir="false" />
     </list>
