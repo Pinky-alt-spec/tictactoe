@@ -14,7 +14,7 @@ from tictactoe.consumers import GameRoom
 from django.core.asgi import get_asgi_application
 from django.urls import path
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'tictac.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'game.settings')
 
 application = get_asgi_application()
 
