@@ -11,7 +11,7 @@
   ## Languages Used in this Section
     
   #### Html : Forms to Post Data to the Database
-  #### CSS: For fonts, Colours, margins and etc.
+  #### CSS: fonts, Colours, margins and etc.
   #### MySql : Used database to save info from user
   --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
 
