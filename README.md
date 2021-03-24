@@ -19,7 +19,7 @@
 # The Play Page
 #### The user will be directed to this section after satisfying the requirements of the langing page
 ### This game - My Game ;) Instead of the X's & O's, I have decided to use the first letter of the player's username 
-### The game will reset if there is a winner or the game is over, of if they decide to.
+### The game will reset if there is a winner or the game is over, if the players decides to.
 
 ![play](https://user-images.githubusercontent.com/64901994/112340639-f8543180-8c7d-11eb-932a-0d60352ba420.PNG)
 
@@ -55,11 +55,11 @@
 ![database](https://user-images.githubusercontent.com/64901994/112343808-b7a9e780-8c80-11eb-9046-4046679bdfd4.PNG)
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-### The play section has a table that shows all the saved previous players, The user can load more previous players
+### The play section has a table that shows all the previously saved data, The user can load more previous players
 
 ![display](https://user-images.githubusercontent.com/64901994/112344573-7403ad80-8c81-11eb-8c7b-29c8502b05d8.PNG)
 
-### Used Html tables, I must say it's very satisfying to play with colors
+### Used Html tables, I must say it's very satisfying to play with colors :)
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
