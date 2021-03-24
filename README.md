@@ -1,6 +1,6 @@
 # Tic Tac Toe Game - Landing Page
     
-  ### In this game. The landing page requires the user to first:- 
+  ### In this game, the landing page requires the user to first:- 
 
    #### - Enter their username
    #### - The user has to create the room code, select option 1
