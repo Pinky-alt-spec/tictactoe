@@ -42,17 +42,17 @@
     </div>
 
     <center>
-        <h2>Player's Info</h2>
-        <table class="table1" border="1">
-            <tr class="heading">
-                <td>Game ID</td>
+        <h2>PLAYERS' INFO</h2>
+        <table id="table1">
+            <tr>
+                <td><strong>Game ID</strong></td>
                 <th>Main Player</th>
                 <th>Room Code</th>
                 <th>Opponent</th>
                 <th>Game Over</th>
             </tr>
             {% for displaydata in Game %}
-            <tr class="heading1">
+            <tr id="table2">
                 <td>{{displaydata.id}}</td>
                 <td>{{displaydata.game_creator}}</td>
                 <td>{{displaydata.room_code}}</td>
@@ -61,16 +61,17 @@
             </tr>
             {% endfor %}
         </table>
-
-        {% if Game.has_previous%}
-        <a class="margin-bottom: 20px" href="?page=1">FIRST</a>
-        <a class="margin-bottom: 20px"href="?page={{Game.previous_page_number}}">BACK</a>
-        {% endif %}
-        {{game.number}}<b>/</b>{{game.paginator.num_pages}}
-        {% if Game.has_next%}
-        <a class="margin-bottom: 50px" href="?page={{Game.next_page_number}}">lOAD MORE</a>
-        <a style="margin-bottom: 50px" href="?page={{game.paginator.num_pages}}">LAST PAGE</a>
-        {% endif %}
+        <div class="page_controls">
+            {% if Game.has_previous%}
+            <a class="margin-bottom: 20px" href="?page=1">First</a>
+            <a class="margin-bottom: 20px"href="?page={{Game.previous_page_number}}">Back</a>
+            {% endif %}
+            {{game.number}}<b>/</b>{{game.paginator.num_pages}}
+            {% if Game.has_next%}
+            <a class="margin-bottom: 50px" href="?page={{Game.next_page_number}}">load More</a>
+            <a style="margin-bottom: 50px" href="?page={{game.paginator.num_pages}}">Last Page</a>
+            {% endif %}
+        </div>
     </center>
 
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>

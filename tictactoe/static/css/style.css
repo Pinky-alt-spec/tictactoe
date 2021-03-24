@@ -144,6 +144,8 @@
         background-color: #b43;
     }
 
+    /* ---Start---- */
+
     .startReset {
         width: 100%;
         cursor: pointer;
@@ -176,6 +178,8 @@
         background-color: #494;
     }
 
+    /* ---Reset Button---- */
+
     #reset {
         flex: 1 1 auto;
         background-color:#d4af59;
@@ -191,24 +195,11 @@
         background-color: #844;
     }
 
-    .scoreboard {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: #f0f0f0;
-    }
-
-    .scoreboard>div {
-        flex: 1 1 auto;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 3px;
-    }
-
     .activeplayer {
         background-color: #248;
     }
+
+    /* ---Board Css---- */
 
     .boardcontainer {
         width: 100%;
@@ -257,23 +248,94 @@
         background-color: #665;
     }
 
-    .table1{
-        width: 50%;
-        height: 50%;
-        margin-top: -80px;
+    /* ---Table Css---- */
+
+   #table1 {
+      font-family: Arial, Helvetica, sans-serif;
+      border-collapse: collapse;
+      width: 50%;
+    }
+
+    #table1 td, #table1 th {
+      border: 1px solid #000;
+      padding: 14px;
+      font-size: 21px;
+    }
+
+    #table1 tr:nth-child(even){background-color: #d4af59;}
+
+    #table1 tr:hover {background-color: #ddd;}
+
+    #table1 td:nth-child(even){background-color: #d4af59;}
+
+    #table1 td:hover {background-color: #ddd;}
+
+    #table1 th, #table1 td{
+      padding-top: 8px;
+      padding-bottom: 8px;
+      text-align: center;
+      background-color: #45bfad;
+      color: #000;
+    }
+
+    /* Table2 Css */
+
+    #table2 {
+      font-family: Arial, Helvetica, sans-serif;
+      border-collapse: collapse;
+      width: 50%;
+    }
+
+    #table2 td, #table1 th {
+      border: 1px solid #000;
+      padding: 14px;
+      font-size: 21px;
+    }
+
+    #table2 tr:nth-child(even){background-color: #d4af59;}
+
+    #table2 tr:hover {background-color: #ddd;}
+
+    #table2 td:nth-child(even){background-color: #d4af59;}
+
+    #table2 td:hover {background-color: #ddd;}
+
+    #table2 th, #table2 td{
+      padding-top: 8px;
+      padding-bottom: 8px;
+      text-align: center;
+      background-color: #45bfad;
+      color: #000;
+    }
+
+    /*-----Page Controls-----*/
+
+    .page_controls{
         margin-bottom: 80px;
-        background-color: #45bfad;
+        margin-top: 35px;
     }
 
-    .table1 .heading{
-        font-size: 30px
+    .page_controls a{
+        color: #fff;
+        font-size: 25px;
+        font-weight: bold;
+        line-height: 0em;
+        text-decoration: none;
+        padding: 20px;
+        margin: 15px;
+    }
+
+    .page_controls a:hover{
+        color: red;
+    }
+
+    h2{
+        color: #fff;
         font-weight: bold;
     }
 
-     .table1 .heading2{
-        font-size: 20px
-        font-weight: bold;
+     h2:hover{
+        color: red;
     }
-
 
 
