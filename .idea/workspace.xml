@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c760313-e7d2-45c3-be33-3cac3c565609" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tictactoe/static/img/intro.PNG" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../tictac/db.sqlite3" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../tictac/main.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../tictac/manage.py" afterDir="false" />
